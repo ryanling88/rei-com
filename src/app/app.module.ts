@@ -9,6 +9,7 @@ import { ExamplesPricingComponent } from './examples-pricing/examples-pricing.co
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { StandardCaroselComponent } from './standard-carosel/standard-carosel.component';
 import { PixelCaroselComponent } from './pixel-carosel/pixel-carosel.component';
+import { ToImplementComponent } from './to-implement/to-implement.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PixelCaroselComponent } from './pixel-carosel/pixel-carosel.component';
     ImageCarouselComponent,
     StandardCaroselComponent,
     PixelCaroselComponent,
+    ToImplementComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
