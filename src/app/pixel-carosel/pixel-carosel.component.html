@@ -1,0 +1,12 @@
+
+<div class="carousel-container">
+	<img [src]="images[currentIndex]" alt="Current Image" class="carousel-image" [class.enlarged]="isEnlarged" (click)="toggleEnlargement()">
+	<div class="carousel-buttons">
+		<button (click)="prevImage()"><-</button>
+		<h3>Pixels</h3>
+		<button (click)="nextImage()">-></button>
+	</div>
+	<p>
+		Starting Price: $20
+	</p>
+</div>
